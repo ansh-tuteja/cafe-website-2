@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figaro-orders</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr327CcNu8b6SoqGT7J9vM-Mbs49qmSchj5w&s" type="image/x-icon">
+    
+    <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr327CcNu8b6SoqGT7J9vM-Mbs49qmSchj5w&s" height="80px" width="80px">
+          <a class="navbar-brand">Figaro-Cafe</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navcon">
+              <li class="nav-item">
+                <a class="nav-link "  href="index.html">Home</a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link " href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link"  href="order.html">ORDER HERE</a>
+              </li>
+             
+        
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!---->
+<form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">First name</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">State</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address </label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">order product</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Cappuucino(&#8377;210)</option>
+        <option >  Espresso(&#8377;190) </option>
+        <option> Hazelnut-frappe (&#8377;198)</option>
+        <option value="">  Virgin-Mojito (&#8377;89)  </option>
+        <option value=""> Blueberry-Shake(&#8377;135)</option>
+        <option value="">Oreo-shake(&#8377;135)</option>
+        <option value="">Choco-chip(&#8377;50)</option>
+        <option value=""> Loaded-dry-fruit(&#8377;56)</option>
+        <option value=""> Milk-chocolate (&#8377;48)</option>
+        <option value=""> Creamy sandwich(&#8377;150)</option>
+        <option value="">Mexican-taco (&#8377;48)</option>
+        <option value="">Red velvet pastry  (&#8377;148)</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          I agree to the terms & conditions.
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Confirm your order.</button>
+    </div>
+  </form>
+  
+</body>
+</html>
